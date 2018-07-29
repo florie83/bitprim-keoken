@@ -35,51 +35,40 @@ The transportation protocol is defined in the following way:
 
 ![Keoken Transportation Protocol](assets/images/keoken_transportation_protocol.svg)
 
-[Data size](https://en.bitcoin.it/wiki/Script#Constants)
+- The first 6 bytes are fixed and always the same. hex: `6a0400004b50`.
+- The next byte or bytes represent the size of the _Keoken_ data part, and it's encoded in the following way:
 
 <table>
   <tr>
-    <td>N/A</td>
-    <td>1-75</td>
-    <td>0x01-0x4b</td>
-    <td>(special)</td>
-    <td>data</td>
-    <td>The next opcode bytes is data to be pushed onto the stack</td>
+    <td>First Byte</td>
+    <td>Extra Bytes</td>
+    <td>Description</td>
   </tr>
   <tr>
-    <td>OP_PUSHDATA1</td>
-    <td>76</td>
-    <td>0x4c</td>
-    <td>(special)</td>
-    <td>data</td>
-    <td>The next byte contains the number of bytes to be pushed onto the stack.</td>
+    <td>dec: 04 to 75<br/>hex: 0x04 to 0x4b</td>
+    <td>-</td>
+    <td>There are no extra bytes. The size of the data part is represented by the value of the first byte.</td>
   </tr>
   <tr>
-    <td>OP_PUSHDATA2</td>
-    <td>77</td>
-    <td>0x4d</td>
-    <td>(special)</td>
-    <td>data</td>
-    <td>The next two bytes contain the number of bytes to be pushed onto the stack in little endian order.</td>
+    <td>dec: 76<br/>hex: 0x4c<br/>OP_PUSHDATA1</td>
+    <td><center>1</center></td>
+    <td>There is one (1) extra byte after the first byte. The size of the data part is represented by the value of that extra byte.</td>
   </tr>
   <tr>
-    <td>OP_PUSHDATA4</td>
-    <td>78</td>
-    <td>0x4e</td>
-    <td>(special)</td>
-    <td>data</td>
-    <td>The next four bytes contain the number of bytes to be pushed onto the stack in little endian order.</td>
+    <td>dec: 77<br/>hex: 0x4d<br/>OP_PUSHDATA2</td>
+    <td><center>2</center></td>
+    <td>There are two (2) extra bytes after the first byte. The size of the data part is represented by the value of those extra bytes in little endian order.</td>
+  </tr>
+  <tr>
+    <td>dec: 78<br/>hex: 0x4e<br/>OP_PUSHDATA4</td>
+    <td><center>4</center></td>
+    <td>There are four (4) extra bytes after the first byte. The size of the data part is represented by the value of those extra bytes in little endian order.</td>
   </tr>
 </table>
 
+  So the data size could be represented using 1, 2, 3 or 5 bytes.
 
-All of these validations have to be true to get a valid Keoken transaction:
-
-1. At least one **OP_RETURN** exists in the outputs.
-
-2. The **OP_RETURN** must be followed by the Keoken protocol prefix (0x00004b50).
-
-The protocol always uses the first **OP_RETURN** found. The other **OP_RETURN** are ignored.
+- After the _data size_, `N` more bytes must follow, where `N` is equal to the value of the _data size_ part. Those N bytes represent the _Keoken Transaction Data_, that is independent of the transport protocol and will be described below.
 
 ## Transaction Types 
 
@@ -369,3 +358,28 @@ Important Data:
 </table>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----
+All of these validations have to be true to get a valid Keoken transaction:
+
+1. At least one **OP_RETURN** exists in the outputs.
+
+2. The **OP_RETURN** must be followed by the Keoken protocol prefix (0x00004b50).
+
+The protocol always uses the first **OP_RETURN** found. The other **OP_RETURN** are ignored.
+
+----
