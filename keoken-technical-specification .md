@@ -53,7 +53,7 @@ Keoken needs to be transported on an existing cryptocurrency with Bitcoin compat
 
 The transportation protocol is defined in the following way:
 
-![Keoken Transportation Protocol](assets/images/keoken_transportation_protocol.png)
+![Keoken Transportation Protocol](assets/images/keoken_transportation_protocol.svg)
 
 Data size (encoded): (link a https://en.bitcoin.it/wiki/Script#Constants)
 
