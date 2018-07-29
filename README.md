@@ -2,9 +2,11 @@
 
 > An open protocol for extending blockchain functionality
 
-## Technical Specification
+## Documents
 
-[Technical Specification](keoken-technical-specification.md)
+- [White Paper](keoken-whitepaper.md)
+
+- [Technical Specification](keoken-technical-specification.md)
 
 <!-- Links -->
 [badge.Gitter]: https://img.shields.io/badge/gitter-join%20chat-blue.svg
