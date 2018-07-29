@@ -15,7 +15,7 @@
 
 *Guillermo Paoletti (guillermo@bitprim.org)*
 
-*Gerardo Arceri (gerardo@bitprim.org)*
+*Gerardo Arceri (gea@bitprim.org)*
 
 *Renzo Barrionuevo (renzo@bitprim.org)*
 
