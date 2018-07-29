@@ -4,7 +4,7 @@
 
 ## Technical Specification
 
-[Technical Specification](keoken-technical-specification%20.md)
+[Technical Specification](keoken-technical-specification.md)
 
 <!-- Links -->
 [badge.Gitter]: https://img.shields.io/badge/gitter-join%20chat-blue.svg
