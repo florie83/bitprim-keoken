@@ -3,26 +3,6 @@
 ### Technical specification (Draft)
 ### Version 0.1
 
-*Juan Garavaglia (juan@bitprim.org)*
-
-*Fernando Pelliccioni (fernando@bitprim.org)*
-
-*Mario Dal Lago (mario@bitprim.org)*
-
-*Ramiro Carlucho (ramiro@bitprim.org)*
-
-*Dario Ramos (dario@bitprim.org)*
-
-*Guillermo Paoletti (guillermo@bitprim.org)*
-
-*Gerardo Arceri (gea@bitprim.org)*
-
-*Renzo Barrionuevo (renzo@bitprim.org)*
-
-*Mateo Friedman (mateo@bitprim.org)*
-
-*Mariano Orsili (mariano@bitprim.org)*
-
 **_Bitprim Project Inc._**
 
 ## Document Versioning
