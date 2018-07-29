@@ -5,6 +5,8 @@
 
 **_Bitprim Project Inc._**
 
+dev@bitprim.org
+
 ## Document Versioning
 
 <table>

@@ -6,6 +6,8 @@
 
 **_Bitprim Project Inc._**
 
+dev@bitprim.org
+
 ## Introduction
 
 Since the creation of Bitcoin, defined by the Satoshi Nakamoto White Paper, a vibrant ecosystem has been created. The vision of P2P Electronic Cash expanded the horizons on how we can transact among parties. Today, we have a well proven technology and a solid operational platform where trustless transfers of value are recorded with optimal levels of decentralization and immutability.
