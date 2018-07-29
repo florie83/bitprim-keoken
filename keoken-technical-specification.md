@@ -72,6 +72,22 @@ The transportation protocol is defined in the following way:
 
 - After the _data size_, `N` more bytes must follow, where `N` is equal to the value of the _data size_ part. Those N bytes represent the _Keoken Transaction Data_, that is independent of the transport protocol and will be described below.
 
+## Keoken Transactions
+
+Keoken Transactions are valid transactions of the _Transport Coin_, so it must follow the same rules as the _Transport Coin_ plus new rules added by the _Keoken Protocol_.  
+There are several **types** of _Keoken Transactions_ (and new types may be created in the future), each type has its own set of rules and there are a set of general rules that has to be followed by all the _Keoken_ transaction types.
+
+
+A valid _Transport coin transaction_ will be considered a valid _Keoken transaction_ if it complies with the following general rules:
+
+1. There is at least one output that complies with the format described above in the _Keoken Transportation_ section.
+
+The _Keoken Protocol_ always uses the first _Keoken-Transportation-Compliant_ output found.  
+Succeeding _Keoken-Transportation-Compliant_ outputs will be ignored by _Keoken_. 
+
+The other outputs whose scripts contain an `OP_RETURN` opcode but do not comply with the _Keoken-Transportation_ rules will be ignored by Keoken, although could be valid outputs in the _Transport Coin_.
+
+
 ## Transaction Types 
 
 * [Create Asset](#create-asset) 
