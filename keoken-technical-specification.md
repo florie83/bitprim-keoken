@@ -11,9 +11,9 @@ dev@bitprim.org
 
 <table>
   <tr>
-    <td>Version</td>
-    <td>Date</td>
-    <td>Reviewer</td>
+    <th>Version</th>
+    <th>Date</th>
+    <th>Reviewer</th>
   </tr>
   <tr>
     <td>0.1</td>
@@ -42,13 +42,13 @@ The transportation protocol is defined in the following way:
 
 <table>
   <tr>
-    <td>First Byte</td>
-    <td>Extra Bytes</td>
-    <td>Description</td>
+    <th>First Byte</th>
+    <th>Extra Bytes</th>
+    <th>Description</th>
   </tr>
   <tr>
     <td>dec: 04 to 75<br/>hex: 0x04 to 0x4b</td>
-    <td>-</td>
+    <td><center>-</center></td>
     <td>There are no extra bytes. The size of the data part is represented by the value of the first byte.</td>
   </tr>
   <tr>
@@ -83,14 +83,14 @@ Keoken transactions have the following common header:
 
 <table>
   <tr>
-    <td>Field Name</td>
-    <td>Data Type</td>
-    <td>Description</td>
+    <th>Field Name</th>
+    <th>Data Type</th>
+    <th>Description</th>
   </tr>
   <tr>
     <td>Version</td>
     <td>16-bit unsigned integer, big-endian format.</td>
-    <td>Keoken protocol version. Right now it is 0 (zero) for all the transaction types. Future reviews of this specification may change it.</td>
+    <td>Keoken protocol version. Right now it is 0 (zero) for all the transaction types. Future revisions of this specification may change it.</td>
   </tr>
   <tr>
     <td>Type</td>
@@ -117,10 +117,10 @@ Format:
 
 <table>
   <tr>
-    <td>Field Name</td>
-    <td>Data Type</td>
-    <td>Data Range</td>
-    <td>Description</td>
+    <th>Field Name</th>
+    <th>Data Type</th>
+    <th>Data Range</th>
+    <th>Description</th>
   </tr>
   <tr>
     <td>Version</td>
@@ -170,10 +170,10 @@ Format:
 
 <table>
   <tr>
-    <td>Field Name</td>
-    <td>Data Type</td>
-    <td>Data Range</td>
-    <td>Description</td>
+    <th>Field Name</th>
+    <th>Data Type</th>
+    <th>Data Range</th>
+    <th>Description</th>
   </tr>
   <tr>
     <td>Version</td>
@@ -248,8 +248,8 @@ Script:
 
 <table>
   <tr>
-    <td>Hexa:</td>
-    <td>Data</td>
+    <th>Hexa:</th>
+    <th>Data</th>
   </tr>
   <tr>
     <td>6a</td>
@@ -322,8 +322,8 @@ Important Data:
 
 <table>
   <tr>
-    <td>Hexa:</td>
-    <td>Data</td>
+    <th>Hexa:</th>
+    <th>Data</th>
   </tr>
   <tr>
     <td>6a</td>
