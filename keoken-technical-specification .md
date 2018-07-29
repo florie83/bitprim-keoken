@@ -103,8 +103,8 @@ The protocol always uses the first **OP_RETURN** found. The other **OP_RETURN** 
 
 ## Transaction Types 
 
-* Create Asset
-* Send Tokens
+* [Create Asset](#create-asset) 
+* [Send Tokens](#send-tokens)
 
 ## Transactions Format
 
@@ -243,7 +243,9 @@ Here is a list of specific rules and validations for the **send tokens** transac
 
 5. Amount must be lower than or equal to the tokens available in the owner’s account
 
-## Example 1
+## Examples
+
+### Create Asset
 
 Create a new Keoken Asset called: **Bitprim** with **1000000** Tokens.
 
@@ -313,7 +315,7 @@ Script:
 </table>
 
 
-## Example 2
+### Send Tokens
 
 Send **100 Bitprim** Tokens from **mgt5VsxNUroj9M2uQaTEwbc5am5LMh8F6v** (owner wallet) to **mgAbyFPdhCtUnnbayot2cbqudHGkFS8CsB** (destination wallet).
 
