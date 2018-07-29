@@ -2,6 +2,10 @@
 
 > An open protocol for extending blockchain functionality
 
+## Technical Specification
+
+[Technical Specification](keoken-technical-specification%20.md)
+
 <!-- Links -->
 [badge.Gitter]: https://img.shields.io/badge/gitter-join%20chat-blue.svg
 [badge.version]: https://badge.fury.io/gh/bitprim%2Fbitprim-keoken.svg
