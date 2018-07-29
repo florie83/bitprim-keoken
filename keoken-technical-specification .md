@@ -55,7 +55,7 @@ The transportation protocol is defined in the following way:
 
 ![Keoken Transportation Protocol](assets/images/keoken_transportation_protocol.svg)
 
-Data size (encoded): (link a https://en.bitcoin.it/wiki/Script#Constants)
+[Data size](https://en.bitcoin.it/wiki/Script#Constants)
 
 <table>
   <tr>
