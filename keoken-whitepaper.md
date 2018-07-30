@@ -142,47 +142,47 @@ For reference, simple transactions should cost about US$ 0.01 and new asset crea
 
 ### Most common use cases
 
-* *Native Token (KEO)**.*
+* *Native Token (KEO).*
 
-* *Token issuing**.*
+* *Token issuing.*
 
-* *Units issuing**.*
+* *Units issuing.*
 
-* *Fund Raising**.*
+* *Fund Raising.*
 
-* *Stablecoins**.*
+* *Stablecoins.*
 
-* *Trusts**.*
+* *Trusts.*
 
-* *Securities**.*
+* *Securities.*
 
-* *Futures**.*
+* *Futures.*
 
-* *Decentralized Exchange**.*
+* *Decentralized Exchange.*
 
-* *Digital collectibles **.*
+* *Digital collectibles.*
 
-* *Verification**.*
+* *Verification.*
 
-* *Auction**.*
+* *Auction.*
 
-* *Reserved Funds**.*
+* *Reserved Funds.*
 
 ### Most common transaction types
 
-* *Asset Creation**.*
+* *Asset Creation.*
 
-* *Send Tokens/Units**.*
+* *Send Tokens/Units.*
 
-* *Voting proposal**.*
+* *Voting proposal.*
 
-* *Reversible Send**:* A transaction that can be reversible within a determined period of time.
+* *Reversible Send:* A transaction that can be reversible within a determined period of time.
 
-* *Compromised Key Message**:* Informs the platform that one wallet has been compromised.
+* *Compromised Key Message:* Informs the platform that one wallet has been compromised.
 
-* *Vault**:* Each account has a vault where assets may have some restrictions to be spent.
+* *Vault:* Each account has a vault where assets may have some restrictions to be spent.
 
-* *Transaction throttling limit**:* It limits the maximum volume and frequency authorized to account owners.
+* *Transaction throttling limit:* It limits the maximum volume and frequency authorized to account owners.
 
 * *Endorsable Transactions*.
 
@@ -194,29 +194,29 @@ For reference, simple transactions should cost about US$ 0.01 and new asset crea
 
 Some of the following services are internal while others are accessible via APIs and may require a fee.
 
-* *Native Keoken voting engine**.*
+* *Native Keoken voting engine.*
 
-* *Wallet Name System**:* For registering easy to remember names as a proxy of wallet addresses.
+* *Wallet Name System:* For registering easy to remember names as a proxy of wallet addresses.
 
-* *Asset Name System "Anti-Counterfeit"**.*
+* *Asset Name System "Anti-Counterfeit".*
 
-* *Reputation Provider**:*
+* *Reputation Provider:*
 
     * Reputation provider will track record transactions involved in an account and feedback provided of the other accounts involved in those transactions.
 
     * "Known By" may provide other accounts that know this account holder. This may be used for asset recovery or other purposes.
 
-* *KYC/AML providers**.*
+* *KYC/AML providers.*
 
-* *Save in Blockchain by proxy**: *Users trading a token can complete a transaction in their own token and hire a third party to store that transaction in the blockchain with fees in BCH (or mainnet currency).
+* *Save in Blockchain by proxy:* Users trading a token can complete a transaction in their own token and hire a third party to store that transaction in the blockchain with fees in BCH (or mainnet currency).
 
-* *Data Feed Providers**: *They store data feeds in the blockchain, for example USD/RMB exchange rates. They also define a fee to use that data feed. Any transaction invoking that data feed has to pay the fee determined by the creator.
+* *Data Feed Providers:* They store data feeds in the blockchain, for example USD/RMB exchange rates. They also define a fee to use that data feed. Any transaction invoking that data feed has to pay the fee determined by the creator.
 
-* *Transaction **Guarantor**:*In case a seller without negligent behavior does not receive the payment from the payee, the guarantor honors that payment. Guarantor responsibilities ends when the seller settles the transaction.
+* *Transaction Guarantor:* In case a seller without negligent behavior does not receive the payment from the payee, the guarantor honors that payment. Guarantor responsibilities ends when the seller settles the transaction.
 
 * *Pending Confirmation:* Confirmation pending transactions are stored to determine the available balance to transact.
 
-* *Corvina Storage: *Stores a complete log of all transactions with regular hash commitments to the blockchain to provide a fast bootstrapping of new nodes or light wallets.
+* *Corvina Storage:* Stores a complete log of all transactions with regular hash commitments to the blockchain to provide a fast bootstrapping of new nodes or light wallets.
 
 * *Escrow.*
 
