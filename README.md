@@ -1,5 +1,4 @@
-# Bitprim Keoken <a target="_blank" href="https://gitter.im/bitprim/Lobby">![Gitter Chat][badge.Gitter]</a>
-
+# Bitprim Keoken 
 > An open protocol for extending blockchain functionality
 
 ## Documents
@@ -16,8 +15,4 @@ Since 2014, our multidisciplinary team has been creating tools that help and att
 
 - Mail: dev@bitprim.org
 - Web: https://www.bitprim.com/
-
-
-<!-- Links -->
-[badge.Gitter]: https://img.shields.io/badge/gitter-join%20chat-blue.svg
 
