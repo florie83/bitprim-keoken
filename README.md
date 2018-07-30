@@ -29,6 +29,14 @@ conan remote add bitprim https://api.bintray.com/conan/bitprim/bitprim
 conan install bitprim-node-exe/0.13.0@bitprim/testing -o keoken=True -o with_rpc=True 
 ```
 
+## Building from source Requirements
+
+In case there are no pre-built binaries for your platform, it is necessary to build from source code. In such a scenario, the following requirements must be added to the previous ones:
+
+- C++11 Conforming Compiler.
+- [CMake](https://cmake.org/) building tool, version 3.4 or newer.
+
+
 ## Source Code
 
 The source code are distributed in the following Github repositories:
