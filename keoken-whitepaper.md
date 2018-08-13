@@ -4,7 +4,7 @@
 
 *Juan Garavaglia, Fernando Pelliccioni, Mario Dal Lago, Ramiro Carlucho, Dario Ramos, Guillermo Paoletti, Gerardo Arceri, Renzo Barrionuevo, Mateo Friedman & Mariano Orsili.*
 
-**_Bitprim Project Inc._**
+**_Bitprim Argentina SRL_**
 
 dev@bitprim.org
 

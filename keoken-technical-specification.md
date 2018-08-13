@@ -3,7 +3,7 @@
 ### Technical specification (Draft)
 ### Version 0.1
 
-**_Bitprim Project Inc._**
+**_Bitprim Argentina SRL_**
 
 dev@bitprim.org
 
