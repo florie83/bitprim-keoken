@@ -48,7 +48,7 @@ Keoken 是第二层解决方案，涉及数字资产和安全智能合约平台�
 
 ## 术语
 
-* [Keoken协议。 规范定义的协议。](keoken-technical-specification.md)
+* [Keoken协议。 规范定义的协议。](keoken-技术文档.md)
 
 * Keoken平台。 开源协议参考实施，运营基础设施和附加服务。 
 

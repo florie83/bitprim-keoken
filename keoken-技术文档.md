@@ -88,8 +88,8 @@ Keoken将忽略成功的Keoken-Transportation-Compliant输出。
 
 ## 交易类型
 
-* [Create Asset](#create-asset) 创建资产
-* [Send Tokens](#send-tokens) 发送token
+* [创建资产](#创建资产)
+* [发送token](#发送token)
 
 ## 交易模式
 
