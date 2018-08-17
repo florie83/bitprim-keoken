@@ -89,7 +89,7 @@ Keoken将忽略成功的Keoken-Transportation-Compliant输出。
 ## 交易类型
 
 * [创建资产](#创建资产)
-* [发送token](#发送token)
+* [发送代币](#发送代币)
 
 ## 交易模式
 
